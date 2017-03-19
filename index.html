@@ -1,1 +1,15 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><title>test</title><meta name=viewport content="width=device-width,initial-scale=1,user-scalable=0"><link href=./static/css/app.11370fe7469bd73531ba78405c3227c0.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.348c11b79fd7f1db3c2a.js></script><script type=text/javascript src=./static/js/vendor.472c981ab9484ca5f877.js></script><script type=text/javascript src=./static/js/app.3e033a929094340c095f.js></script></body></html>
+<!DOCTYPE html><html><head><meta charset=utf-8><title>test</title><script>window.onload = (function IsPC() {
+          var userAgentInfo = navigator.userAgent;
+          var Agents = ["Android", "iPhone",
+                      "SymbianOS", "Windows Phone",
+                      "iPad", "iPod"];
+          var flag = true;
+          for (var v = 0; v < Agents.length; v++) {
+              if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                  flag = false;
+                  alert('请在PC端浏览')
+                  break;
+              }
+          }
+          return flag;
+      })()</script><meta name=viewport content="width=device-width,initial-scale=1,user-scalable=0"><link href=./static/css/app.11370fe7469bd73531ba78405c3227c0.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.348c11b79fd7f1db3c2a.js></script><script type=text/javascript src=./static/js/vendor.472c981ab9484ca5f877.js></script><script type=text/javascript src=./static/js/app.3e033a929094340c095f.js></script></body></html>
